@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portofolio Azmi Ghazy Asyrof — Full-stack developer yang membangun pengalaman digital dari arsitektur hingga antarmuka."
+    />
+    <meta name="theme-color" content="#111310" />
+    <title>Azmi Ghazy Asyrof — Full-stack developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navigasi utama">
+        <a class="brand" href="#beranda" aria-label="Azmi, ke beranda">
+          <span class="brand-mark">A<span>.</span></span>
+          <span class="brand-name">AZMI GH.</span>
+        </a>
+        <button class="nav-toggle" aria-label="Buka navigasi" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#tentang">Tentang</a>
+          <a href="#perjalanan">Perjalanan</a>
+          <a href="#proyek">Proyek</a>
+          <a href="#keahlian">Keahlian</a>
+          <a href="#sertifikat">Sertifikat</a>
+          <a class="nav-contact" href="#kontak">Hubungi saya <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="beranda">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+          <h1>Ide bagus.<br />Eksekusi <span class="accent-text">lebih baik.</span></h1>
+          <p class="hero-intro">
+            Saya <strong>Azmi Ghazy Asyrof</strong> — full-stack developer yang senang
+            merancang pengalaman digital, lalu membangunnya sampai benar-benar berjalan. Kunjungi GitHub saya untuk melihat lebih detail karya saya <a   class="hero-github" href="https://github.com/Opjasson" target="_blank" rel="noopener noreferrer"><img class="inline-github-icon" src="assets/github.svg" alt="" aria-hidden="true" /> Opjasson <span class="github-arrow" aria-hidden="true">↗</span></a>
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#perjalanan">Jelajahi perjalanan <span>↓</span></a>
+            <a class="text-link" href="mailto:azmighazya@gmail.com">Mari ngobrol <span>↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><span class="meta-icon">⌖</span> Indonesia</span>
+            <span><span class="meta-icon">✳</span> Full-stack &amp; mobile</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Ringkasan profil Azmi">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="art-cross cross-one">✳</div>
+          <div class="art-cross cross-two">✳</div>
+          <div class="code-card">
+            <div class="code-top">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>azmi.js</span>
+              <span class="code-language">JS</span>
+            </div>
+            <div class="code-body" aria-label="Cuplikan kode profil">
+              <div><span class="code-line">01</span><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</div>
+              <div><span class="code-line">02</span>&nbsp; name: <span class="code-green">"Azmi Ghazy"</span>,</div>
+              <div><span class="code-line">03</span>&nbsp; focus: [</div>
+              <div><span class="code-line">04</span>&nbsp;&nbsp; <span class="code-green">"thoughtful UI"</span>,</div>
+              <div><span class="code-line">05</span>&nbsp;&nbsp; <span class="code-green">"reliable backend"</span></div>
+              <div><span class="code-line">06</span>&nbsp; ],</div>
+              <div><span class="code-line">07</span>&nbsp; curiosity: <span class="code-orange">Infinity</span></div>
+              <div><span class="code-line">08</span>};</div>
+            </div>
+            <div class="code-footer"><span class="pulse"></span> Building with purpose</div>
+          </div>
+          <div class="floating-note note-award">
+            <span class="note-icon">✦</span>
+            <span><strong>Juara 1</strong><small>Lomba robotika nasional</small></span>
+          </div>
+          <div class="floating-note note-education">
+            <span class="note-icon note-icon-light">↗</span>
+            <span><strong>IPK 3,42</strong><small>D3 Sistem Informasi Visual</small></span>
+          </div>
+          <div class="art-caption">01 / PROFILE SNAPSHOT</div>
+        </div>
+        <a class="scroll-cue" href="#tentang"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="intro-section section-wrap" id="tentang">
+        <div class="container intro-grid">
+          <div class="section-label"><span>01</span> SEDIKIT TENTANG SAYA</div>
+          <div class="intro-content">
+            <h2>Membangun dari <span class="serif-accent">gambaran besar</span><br />hingga detail terkecil.</h2>
+            <div class="intro-columns">
+              <p>
+                Lulusan D3 Sistem Informasi Visual dari Politeknik Pancasakti Global.
+                Saya terbiasa terlibat dalam seluruh siklus pengembangan perangkat
+                lunak—mulai dari merancang sistem dan basis data, sampai membangun
+                antarmuka yang interaktif dan responsif.
+              </p>
+              <p>
+                Saya menikmati pekerjaan yang memadukan logika dan kreativitas.
+                Pengalaman di pengembangan web serta dunia robotika membentuk cara
+                saya memecahkan masalah: ingin tahu, terstruktur, dan selalu siap belajar.
+              </p>
+            </div>
+            <div class="fact-strip">
+              <div><strong>3,42<span>/4,00</span></strong><small>IPK kelulusan</small></div>
+              <div><strong>Juara <span>1</span></strong><small>Lomba robotika nasional · 2024</small></div>
+              <div><strong>D3</strong><small>Sistem Informasi Visual</small></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="journey-section section-wrap" id="perjalanan">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="section-label"><span>02</span> PENGALAMAN &amp; PENDIDIKAN</div>
+              <h2>Belajar. Mencoba.<br /><span class="serif-accent">Terus berkembang.</span></h2>
+            </div>
+            <p>Setiap pengalaman mengajarkan sudut pandang baru—dari ruang kelas hingga produk digital.</p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-entry current-entry">
+              <div class="timeline-date">AGU 2026 — SEKARANG<span class="date-line"></span></div>
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-card">
+                <div class="entry-top"><div><p class="entry-type">PENGALAMAN KERJA</p><h3>Project Tetulung</h3></div><span class="entry-index">01</span></div>
+                <p class="entry-role">Full Stack Mobile Developer</p>
+                <p class="entry-description">Terlibat dalam pengembangan aplikasi mobile full-stack, termasuk penentuan desain arsitektur backend.</p>
+                <div class="tag-row"><span>Flutter</span><span>Dart</span><span>CI/CD</span><span>GitHub</span><span>Play Store</span></div>
+              </div>
+            </article>
+            <article class="timeline-entry">
+              <div class="timeline-date">JAN — APR 2025<span class="date-line"></span></div>
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-card">
+                <div class="entry-top"><div><p class="entry-type">PENGALAMAN MAGANG</p><h3>Toko Bunga Anda</h3></div><span class="entry-index">02</span></div>
+                <p class="entry-role">Website Developer</p>
+                <p class="entry-description">Merancang UML, DFD, dan ERD; menyiapkan wireframe atau mockup; serta membangun tampilan antarmuka menggunakan HTML, CSS, JavaScript, dan React.</p>
+                <div class="tag-row"><span>React</span><span>JavaScript</span><span>UI development</span><span>UML · DFD · ERD</span></div>
+              </div>
+            </article>
+            <article class="timeline-entry">
+              <div class="timeline-date">JAN — MAR 2025<span class="date-line"></span></div>
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-card">
+                <div class="entry-top"><div><p class="entry-type">PENGALAMAN KERJA</p><h3>Politeknik Pancasakti Global</h3></div><span class="entry-index">03</span></div>
+                <p class="entry-role">Full Stack Developer</p>
+                <p class="entry-description">Mengerjakan perancangan sistem, wireframe, antarmuka berbasis Vue.js, dan RESTful API menggunakan Laravel 11.</p>
+                <div class="tag-row"><span>Vue.js</span><span>Laravel 11</span><span>REST API</span></div>
+              </div>
+            </article>
+            <article class="timeline-entry">
+              <div class="timeline-date">NOV 2024 — JAN 2025<span class="date-line"></span></div>
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-card">
+                <div class="entry-top"><div><p class="entry-type">PENGALAMAN KERJA</p><h3>Koperasi Pondok Pesantren Baitul Qur’an</h3></div><span class="entry-index">04</span></div>
+                <p class="entry-role">Laravel Developer</p>
+                <p class="entry-description">Menyusun rancangan sistem dan wireframe, mengembangkan antarmuka dengan Bootstrap, PHP, dan Laravel 11, serta membuat RESTful API.</p>
+                <div class="tag-row"><span>PHP</span><span>Bootstrap</span><span>Laravel 11</span><span>REST API</span></div>
+              </div>
+            </article>
+            <article class="timeline-entry">
+              <div class="timeline-date">JAN 2022 — DES 2024<span class="date-line"></span></div>
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-card">
+                <div class="entry-top"><div><p class="entry-type">PENGALAMAN</p><h3>Tea_bo Bregas</h3></div><span class="entry-index">05</span></div>
+                <p class="entry-role">Robotic Trainer</p>
+                <p class="entry-description">Menyusun modul pembelajaran robotika untuk SD hingga SMA/SMK, mengajarkan mekanika dan elektronika, serta mendampingi siswa membuat proyek dan mempersiapkan kompetisi.</p>
+                <div class="tag-row"><span>Robotics</span><span>Electronics</span><span>Mentoring</span><span>Microcontroller</span></div>
+              </div>
+            </article>
+            <article class="timeline-entry education-entry">
+              <div class="timeline-date">SEP 2023 — OKT 2025<span class="date-line"></span></div>
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-card">
+                <div class="entry-top"><div><p class="entry-type">PENDIDIKAN</p><h3>Politeknik Pancasakti Global</h3></div><span class="entry-index">06</span></div>
+                <p class="entry-role">D3 Sistem Informasi Visual · IPK 3,42/4,00</p>
+                <p class="entry-description">Lulus tepat waktu. Tugas akhir: “Rancangan Sistem Informasi Pendaftaran Mahasiswa Baru Berbasis Web” dengan MySQL, Express, React, dan Node.js.</p>
+                <div class="tag-row"><span>MySQL</span><span>Express</span><span>React</span><span>Node.js</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section section-wrap" id="proyek">
+        <div class="container">
+          <div class="projects-heading">
+            <div>
+              <div class="section-label"><span>03</span> PILIHAN KARYA SAYA</div>
+              <h2>Proyek yang lahir<br />dari <span class="serif-accent">rasa ingin tahu.</span></h2>
+            </div>
+            <p>Dari sistem yang membantu operasional hingga eksplorasi antarmuka dan pengalaman web.</p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <a class="project-image" href="https://github.com/Opjasson/myrekap-pt-anda" target="_blank" rel="noreferrer" aria-label="Lihat repository My-Rekap di GitHub">
+                <img src="assets/myrekap.png" alt="Tampilan dashboard rekap penjualan aplikasi My-Rekap" loading="lazy" />
+                <span class="project-image-index">01 / WEB APP</span>
+                <span class="project-image-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-title-line"><h3>My-Rekap</h3><span class="project-kind">APLIKASI WEB</span></div>
+                <p>Aplikasi untuk merangkum data penjualan toko, memantau produk dan pesanan, serta melihat laporan dengan lebih mudah.</p>
+                <div class="tag-row"><span>React</span><span>TypeScript</span><span>Express</span><span>Prisma</span></div>
+                <div class="project-links">
+                  <a href="https://github.com/Opjasson/myrekap-pt-anda" target="_blank" rel="noreferrer"><span aria-hidden="true">⌘</span> GitHub <span class="project-link-arrow">↗</span></a>
+                  <a href="https://docs.google.com/document/d/1ndtyqI0wyCxgmsFTozpUxCWe4jVOqyLpjA_VseJlwiA/edit?usp=sharing" target="_blank" rel="noreferrer"><span aria-hidden="true">↗</span> Dokumentasi</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <a class="project-image" href="https://pmb.politeknikpancasakti.ac.id/" target="_blank" rel="noreferrer" aria-label="Lihat website PMB Politeknik Pancasakti Global">
+                <img src="assets/polsakti.png" alt="Halaman website Politeknik Pancasakti Global" loading="lazy" />
+                <span class="project-image-index">02 / WEBSITE</span>
+                <span class="project-image-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-title-line"><h3>Website Polsakti</h3><span class="project-kind">PENDIDIKAN</span></div>
+                <p>Pengembangan website kampus yang memudahkan calon mahasiswa mengenal kampus dan mengakses informasi pendaftaran.</p>
+                <div class="tag-row"><span>Vue.js</span><span>Laravel 11</span><span>PHP</span><span>JavaScript</span></div>
+                <div class="project-links">
+                  <a href="https://pmb.politeknikpancasakti.ac.id/" target="_blank" rel="noreferrer"><span aria-hidden="true">↗</span> Lihat website</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <a class="project-image" href="https://drive.google.com/drive/folders/1W8ubdbtsJu7l5Inm7s4qwz5K3TxIqjAh?usp=sharing" target="_blank" rel="noreferrer" aria-label="Lihat showcase project website koperasi">
+                <img src="assets/koperasi.png" alt="Dashboard pengelolaan data koperasi dan pinjaman" loading="lazy" />
+                <span class="project-image-index">03 / WEB APP</span>
+                <span class="project-image-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-title-line"><h3>Website Koperasi</h3><span class="project-kind">SISTEM INFORMASI</span></div>
+                <p>Aplikasi pengelolaan data anggota dan pinjaman koperasi, dengan antarmuka administrasi dan integrasi API.</p>
+                <div class="tag-row"><span>Laravel 11</span><span>Bootstrap 5</span><span>PHP</span><span>API</span></div>
+                <div class="project-links">
+                  <a href="https://drive.google.com/drive/folders/1W8ubdbtsJu7l5Inm7s4qwz5K3TxIqjAh?usp=sharing" target="_blank" rel="noreferrer"><span aria-hidden="true">↗</span> Lihat showcase</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <a class="project-image" href="https://jasa-pasang-listrik.vercel.app/" target="_blank" rel="noreferrer" aria-label="Buka website Electrical Service Solutions">
+                <img src="assets/electrical-service.jpg" alt="Teknisi sedang mengerjakan instalasi listrik" loading="lazy" />
+                <span class="project-image-index">04 / WEBSITE LAYANAN</span>
+                <span class="project-image-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-title-line"><h3>Electrical Service Solutions</h3><span class="project-kind">LAYANAN LISTRIK</span></div>
+                <p>Website layanan instalasi listrik untuk kebutuhan rumah dan komersial, mulai dari pemasangan baru hingga perbaikan dan layanan darurat.</p>
+                <div class="tag-row"><span>Instalasi listrik</span><span>Perbaikan</span><span>Layanan 24 jam</span></div>
+                <div class="project-links">
+                  <a href="https://jasa-pasang-listrik.vercel.app/" target="_blank" rel="noreferrer"><span aria-hidden="true">↗</span> Lihat website</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <a class="project-image" href="https://xl-wifi-provider-profile.vercel.app/" target="_blank" rel="noreferrer" aria-label="Buka website profil XL Satu">
+                <img src="assets/xl-satu.jpg" alt="Halaman utama profil XL Satu dan layanan konektivitas rumah" loading="lazy" />
+                <span class="project-image-index">05 / COMPANY PROFILE</span>
+                <span class="project-image-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-title-line"><h3>Profil XL Satu</h3><span class="project-kind">KONEKTIVITAS</span></div>
+                <p>Website profil XL Satu yang memperkenalkan layanan konektivitas rumah, myXL, dan dukungan untuk pelanggan.</p>
+                <div class="tag-row"><span>XL HOME</span><span>myXL</span><span>Informasi layanan</span></div>
+                <div class="project-links">
+                  <a href="https://xl-wifi-provider-profile.vercel.app/" target="_blank" rel="noreferrer"><span aria-hidden="true">↗</span> Lihat website</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <a class="project-image" href="https://jssn-ecomerce.vercel.app/" target="_blank" rel="noreferrer" aria-label="Buka toko daring JssNCart">
+                <img src="assets/jssn-cart.png" alt="Halaman utama toko online JssNCart dengan katalog busana" loading="lazy" />
+                <span class="project-image-index">06 / E-COMMERCE</span>
+                <span class="project-image-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info">
+                <div class="project-title-line"><h3>JssNCart</h3><span class="project-kind">TOKO DARING</span></div>
+                <p>Website belanja daring dengan katalog busana, koleksi produk, halaman detail, dan keranjang belanja.</p>
+                <div class="tag-row"><span>Katalog produk</span><span>Detail produk</span><span>Keranjang</span></div>
+                <div class="project-links">
+                  <a href="https://jssn-ecomerce.vercel.app/" target="_blank" rel="noreferrer"><span aria-hidden="true">↗</span> Buka toko</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section section-wrap" id="keahlian">
+        <div class="container skills-grid">
+          <div>
+            <div class="section-label"><span>04</span> PERANGKAT KERJA SAYA</div>
+            <h2>Teknologi untuk<br /><span class="serif-accent">mewujudkan ide.</span></h2>
+            <p class="skills-intro">Terbiasa melangkah dari rancangan sistem ke produk yang bisa digunakan.</p>
+            <a class="text-link skills-link" href="mailto:azmighazya@gmail.com">Ada ide menarik? <span>↗</span></a>
+          </div>
+          <div class="skills-board">
+            <div class="skill-group">
+              <h3><span class="skill-icon">⌘</span> DEVELOPMENT</h3>
+              <div class="skill-pills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Vue.js</span><span>React Native</span><span>Flutter</span><span>Dart</span><span>Kotlin</span><span>PHP</span><span>Laravel 11</span><span>Node.js</span><span>Express.js</span><span>PostgreSQL</span><span>MySQL</span><span>Prisma</span><span>Sequelize</span><span>REST API</span></div>
+            </div>
+            <div class="skill-group">
+              <h3><span class="skill-icon">◈</span> DESIGN &amp; SYSTEM</h3>
+              <div class="skill-pills"><span>Wireframing</span><span>UI/UX Design</span><span>UML</span><span>DFD</span><span>ERD</span><span>Bootstrap</span><span>Canva</span></div>
+            </div>
+            <div class="skill-group">
+              <h3><span class="skill-icon">↗</span> DELIVERY &amp; DEPLOYMENT</h3>
+              <div class="skill-pills"><span>CI/CD</span><span>Deployment</span></div>
+            </div>
+            <div class="skill-group skill-bottom">
+              <h3><span class="skill-icon">✳</span> OTHER SKILLS</h3>
+              <div class="skill-pills"><span>Robotika</span><span>Microsoft Office</span><span>Bahasa Indonesia</span><span>Bahasa Inggris</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="recognition-section section-wrap" id="sertifikat">
+        <div class="container recognition-grid">
+          <div>
+            <div class="section-label"><span>05</span> SERTIFIKAT &amp; PENGHARGAAN</div>
+            <h2>Belajar, berkarya,<br /><span class="serif-accent">terus bertumbuh.</span></h2>
+          </div>
+          <div class="recognition-list">
+            <article><span class="recognition-year">2024</span><div><h3>Juara 1 Lomba Robotika</h3><p>Kejurnas · Pusat Prestasi Nasional (Puspresnas)</p></div><a class="recognition-link" href="assets/certificates/KEJUARANROBOTIK-PUSPERNAS.pdf" target="_blank" rel="noreferrer">Lihat PDF <span>↗</span></a></article>
+            <article><span class="recognition-year">2024</span><div><h3>Node.js for Web Developers</h3><p>TalentHub · Karirhub</p></div><a class="recognition-link" href="assets/certificates/NodeJs-TalentHub.pdf" target="_blank" rel="noreferrer">Lihat PDF <span>↗</span></a></article>
+            <article><span class="recognition-year">2023</span><div><h3>UI/UX Design</h3><p>Dicoding</p></div><a class="recognition-link" href="assets/certificates/UI-UX-Dicoding-Sertification.pdf" target="_blank" rel="noreferrer">Lihat PDF <span>↗</span></a></article>
+            <article><span class="recognition-year">PDF</span><div><h3>Ethical Hacker</h3><p>Course-Net</p></div><a class="recognition-link" href="assets/certificates/EthicalHacker-COURSENET.pdf" target="_blank" rel="noreferrer">Lihat PDF <span>↗</span></a></article>
+            <article><span class="recognition-year">PDF</span><div><h3>HTML5</h3><p>Codepolitan</p></div><a class="recognition-link" href="assets/certificates/HTML5-CODEPOLITAN.pdf" target="_blank" rel="noreferrer">Lihat PDF <span>↗</span></a></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="kontak">
+        <div class="contact-glow" aria-hidden="true"></div>
+        <div class="container contact-content">
+          <div class="section-label"><span>06</span> ADA YANG INGIN DIBANGUN?</div>
+          <h2>Mari buat sesuatu<br /><span class="serif-accent">yang berarti.</span></h2>
+          <p>Saya terbuka untuk obrolan, kolaborasi, dan kesempatan baru.</p>
+          <a class="button button-primary contact-button" href="mailto:azmighazya@gmail.com">azmighazya@gmail.com <span>↗</span></a>
+          <div class="contact-details">
+            <a href="tel:+6285974685033">+62 859-7468-5033</a>
+            <span class="contact-separator">·</span>
+            <a href="https://www.linkedin.com/in/azmi-ghazy-asyrof/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand" href="#beranda"><span class="brand-mark">A<span>.</span></span><span class="brand-name">AZMI GH.</span></a>
+        <p>Dirancang dengan rasa ingin tahu<span> · </span><span id="year">2026</span></p>
+        <a class="back-top" href="#beranda">KEMBALI KE ATAS <span>↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
